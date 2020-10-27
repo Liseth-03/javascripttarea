@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO JAVASCRIPT</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+    <div class="slide-contenedor">
+        <div class="miSlider fade">
+            <img src="images//1.jpg" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="images/2.jpg" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="images//3.jpg" alt="">
+        </div>
+
+        <div class="direcciones">
+            <a href=""class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href=""class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+            <span class="barra active" onclick="positionSlide(1)"></span>
+            <span class="barra " onclick="positionSlide(2)"></span>
+            <span class="barra" onclick="positionSlide(3)"></span>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
