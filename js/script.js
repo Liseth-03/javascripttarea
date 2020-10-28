@@ -21,7 +21,3 @@ function muestraSlides(n){
     for(i = 0; i < slides.length; i++){
         barras[i].classname = barras[i].classname.replace("active");
     }
-
-    slides.[indice-1].style.display = 'block';
-    barras[indice-1].className += ' active';
-}
